@@ -7,7 +7,7 @@ struct date {
 } date;
 
 int days(int d, int m, int y) {
-	return d+(m*30)+((y-2000)*365);
+	return d-1+((m-1)*30)+((y-2000)*365);
 }
 
 int main() {
