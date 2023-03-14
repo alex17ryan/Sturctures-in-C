@@ -1,3 +1,5 @@
+// I supposed we have 6 employees, You can always make it an N number.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
